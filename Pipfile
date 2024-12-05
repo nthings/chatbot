@@ -6,8 +6,11 @@ name = "pypi"
 [packages]
 streamlit = "*"
 boto3 = "*"
+urllib3 = "*"
+setuptools = "*"
 
 [dev-packages]
+jupyter = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.12"
