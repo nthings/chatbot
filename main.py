@@ -36,7 +36,7 @@ def generate_response(prompt):
 
 
 st.title("Chat Playground using Amazon Bedrock and Streamlit")
-# st.write("Type a message and get a response from the model.")
+st.write("Type a message and get a response from the model.")
 
 
 user_input = st.text_input("You: ")
